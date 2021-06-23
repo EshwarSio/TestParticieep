@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title> Test Particeep Eshwar </title>
+	</head>
+	<body>
+		<hr>
+		<center><h1> Liste de Films </h1></center>
+		<hr>
+		<div id="carte">
+			<script type="module">
+				import {movies$} from "/TestParticieep/movies.js"	
+				
+				movies$.then((movies) => {
+					movies.forEach(movies => console.log("Titre : " + movies.title) )
+					
+				})
+			</script>
+		</div>
+
+
+
+		
+		
+	</body>
+</html>

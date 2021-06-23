@@ -1,0 +1,44 @@
+body{
+	background-color:#E7E7E7;
+}
+.carte{
+	border:1px solid grey;
+background-color:white;
+display:inline;
+padding-top:1%;
+float: left;
+width:14.8%;
+height:20%;
+text-align:center;
+margin:1%;
+margin-left:3%;
+background-image:url("img/cg.jpg");
+ box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+		-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+		-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.carte :hover{
+	opacity:0.1;
+	cursor: pointer;
+	
+}
+
+
+#likes{
+	height:2%;
+	width:50%;
+	background:#0B64C3;
+	float:left;
+}
+#dislikes{
+	height:2%;
+	width:50%;
+	background:#ccc;
+	float:right;
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
+}
